@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='event.css') }}">
+    <title>{{ title }}</title>
+    <style>
+      html * {
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: bisque;
+
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href ="/events">Events</a>
+                <a href = "/about">About</a>
+                <a href = "/join">Join</a>
+                <a href = "/calendar">Calendar</a>
+                <a href = "/FAQ's">FAQ's</a>
+                <a href = "/contact">Contact Us</a>
+                <a href = "/jobs">Jobs</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    {% block content %}
+    
+    {% endblock content  %}
+</body>
+</html>

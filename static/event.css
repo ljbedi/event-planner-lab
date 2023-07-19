@@ -1,0 +1,19 @@
+h1 {
+    font-size: 32px;
+    color: teal;
+}
+
+nav {
+    justify-content: space-around;
+    font-size: large;
+    color: darkslategray;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkslategray;
+    font:italic;
+    font-size: smaller;
+}
+
+
